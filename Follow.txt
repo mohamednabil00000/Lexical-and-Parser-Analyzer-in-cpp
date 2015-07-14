@@ -1,0 +1,20 @@
+Follow
+*******
+METHOD_BODY  :{ '$' }
+STATEMENT_LIST  :{ '$' }
+STATEMENT  :{ '$' , 'float' , 'id' , 'if' , 'int' , 'while' , '}' }
+DECLARATION  :{ '$' , 'float' , 'id' , 'if' , 'int' , 'while' , '}' }
+PRIMITIVE_TYPE  :{ 'id' }
+IF  :{ '$' , 'float' , 'id' , 'if' , 'int' , 'while' , '}' }
+WHILE  :{ '$' , 'float' , 'id' , 'if' , 'int' , 'while' , '}' }
+ASSIGNMENT  :{ '$' , 'float' , 'id' , 'if' , 'int' , 'while' , '}' }
+EXPRESSION  :{ ')' , ';' }
+SIMPLE_EXPRESSION  :{ ')' , ';' , 'relop' }
+TERM  :{ ')' , ';' , 'addop' , 'relop' }
+FACTOR  :{ ')' , ';' , 'addop' , 'mulop' , 'relop' }
+SIGN  :{ '(' , 'id' , 'num' }
+EXPRESSION1  :{ ')' , ';' }
+STATEMENT_LIST1  :{ '$' }
+SIMPLE_EXPRESSION1  :{ ')' , ';' , 'relop' }
+TERM1  :{ ')' , ';' , 'addop' , 'relop' }
+***********************************************************************************

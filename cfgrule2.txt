@@ -1,0 +1,6 @@
+#E=T ER
+#ER='+' T ER |'\L'
+#T= F TR
+#TR='*' F TR | '\L'
+#F='(' E ')'| 'id'
+ 

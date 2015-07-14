@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="modifiedParser" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/modifiedParser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/modifiedParser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="FinalTransition.cpp" />
+		<Unit filename="FinalTransition.h" />
+		<Unit filename="Minimization.cpp" />
+		<Unit filename="Minimization.h" />
+		<Unit filename="Node.cpp" />
+		<Unit filename="Node.h" />
+		<Unit filename="State.cpp" />
+		<Unit filename="State.h" />
+		<Unit filename="cfgrule1.txt" />
+		<Unit filename="cfgrule2.txt" />
+		<Unit filename="cfgrule3.txt" />
+		<Unit filename="cfgrule4.txt" />
+		<Unit filename="code1.txt" />
+		<Unit filename="code2.txt" />
+		<Unit filename="lexical.cpp" />
+		<Unit filename="lexical.h" />
+		<Unit filename="lexicalrule.txt" />
+		<Unit filename="main.cpp" />
+		<Unit filename="parser.cpp" />
+		<Unit filename="parser.h" />
+		<Unit filename="sort_for_expr.cpp" />
+		<Unit filename="sort_for_expr.h" />
+		<Unit filename="stack_value.cpp" />
+		<Unit filename="stack_value.h" />
+		<Unit filename="token.txt" />
+		<Unit filename="transition.txt" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

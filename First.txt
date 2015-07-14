@@ -1,0 +1,20 @@
+First
+*******
+METHOD_BODY  :{ 'float' , 'id' , 'if' , 'int' , 'while' }
+STATEMENT_LIST  :{ 'float' , 'id' , 'if' , 'int' , 'while' }
+STATEMENT  :{ 'float' , 'id' , 'if' , 'int' , 'while' }
+DECLARATION  :{ 'float' , 'int' }
+PRIMITIVE_TYPE  :{ 'float' , 'int' }
+IF  :{ 'if' }
+WHILE  :{ 'while' }
+ASSIGNMENT  :{ 'id' }
+EXPRESSION  :{ '(' , '+' , '-' , 'id' , 'num' }
+SIMPLE_EXPRESSION  :{ '(' , '+' , '-' , 'id' , 'num' }
+TERM  :{ '(' , 'id' , 'num' }
+FACTOR  :{ '(' , 'id' , 'num' }
+SIGN  :{ '+' , '-' }
+EXPRESSION1  :{ '\L' , 'relop' }
+STATEMENT_LIST1  :{ '\L' , 'float' , 'id' , 'if' , 'int' , 'while' }
+SIMPLE_EXPRESSION1  :{ '\L' , 'addop' }
+TERM1  :{ '\L' , 'mulop' }
+***********************************************************************************
